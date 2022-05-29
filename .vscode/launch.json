@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Frontend",
+      "type": "pwa-msedge",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/frontend"
+    },
+    {
+      "name": "Launch Api",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/api"
+  }
+  ]
+}
